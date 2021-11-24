@@ -77,6 +77,7 @@ public class ListViewAdepter extends BaseAdapter  {
                 @Override
                 public void onClick(View view) {
                     //TODO delete
+                    // delete user listItem
                 }
             });
         }
