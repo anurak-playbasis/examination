@@ -53,6 +53,7 @@ public class ListViewAdepter extends BaseAdapter  {
             viewHolder = (ViewHolder) convertView.getTag();
         }
         viewHolder.setData(mContext,position, userList);
+        viewHolder.deleteData(position);
         return convertView;
     }
     static class ViewHolder{
