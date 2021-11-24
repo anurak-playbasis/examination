@@ -77,7 +77,16 @@ public class ListViewAdepter extends BaseAdapter  {
                 @Override
                 public void onClick(View view) {
                     //TODO delete
-                    // delete user listItem
+                    // delete user listItem by user mPresenter.deleteData(id)
+                }
+            });
+        }
+        public void editData(int position){
+            btEdit.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    //TODO edit
+                    // edit user listItem
                 }
             });
         }
